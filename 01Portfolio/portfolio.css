@@ -1,0 +1,46 @@
+.img-circle {
+	border-radius: 50%;
+	max-width: 300px;
+	padding: 2%;
+}
+.container-fluid {
+	padding: 5% 2%;
+}
+
+.bg-1 {
+	background: #1B9AAA;
+	color: #F8FFE5;
+}
+.bg-2 {
+	background: #EF476F;
+	color: #F8FFE5;
+}
+.bg-3 {
+	background: #FFC43D	;
+	color: #F8FFE5;
+}
+.bg-3 img {
+	width: 100%;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+.navbar-header {
+	width: 100%;
+}
+.navbar-header ul a li {
+	width: 15%;
+	float: left;
+	color: black;
+	float: left;
+}
