@@ -1,6 +1,9 @@
 * {
 	text-decoration: none;
 	list-style: none;
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
 }
 h1 {
 	text-align: center;
@@ -18,4 +21,69 @@ h1:hover {
 .main-day-tiles {
 	width: 250px;
 	margin-bottom: 2%;
+}
+#hamburger-ul {
+	background: hotpink;
+	position: absolute;
+	font-size: 0em;
+	top: 50px;
+	right: 50px;
+	width: 0%;
+	transition: width 1s;
+}
+#hamburger-ul li {
+	text-align: center;
+	color: white;
+	font-family: 'Unica One', cursive;
+	padding: 4%;
+
+}
+#hamburger-ul li:hover {
+	color: grey;
+}
+#hamburger {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	width: 75px;
+	height: 75px;
+	background-color: hotpink;
+	border-radius: 50%;
+}
+.hamburger-line {
+	z-index: 2;
+	left: 12px;
+	position: absolute;
+	width: 50px;
+	height: 3px;
+	background-color: white;
+	transition: all ease 1s;
+}
+#line1 {
+	top: 20px;
+}
+#line2 {
+	top: 35px;
+}
+#line3 {
+	top: 50px;
+}
+#line1.hamburger-line.x-out {
+	transform: rotate(45deg) translate(12px, 12px);
+	transition: all ease 0.7s;
+}
+#line2.hamburger-line.x-out {
+	transform: rotate(-45deg) translate(0px, 2px);
+	transition: all ease 0.7s;
+}
+#line3.hamburger-line.x-out {
+	transform: rotate(-45deg) translate(8px, -8px);
+	transition: all ease 0.7s;
+}
+#hamburger-ul.open {
+	width: 18%;
+	transition: width 1s;
+	font-size: 1.5em;
+	transition: font-size 1s;
+
 }
