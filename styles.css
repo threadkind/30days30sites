@@ -1,0 +1,21 @@
+* {
+	text-decoration: none;
+	list-style: none;
+}
+h1 {
+	text-align: center;
+	font-family: 'Unica One', cursive;
+	color: black;
+}
+h1:hover {
+	color: grey;
+}
+#tile-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.main-day-tiles {
+	width: 250px;
+	margin-bottom: 2%;
+}
