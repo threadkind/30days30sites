@@ -1,0 +1,148 @@
+/* COLORS 
+#820263
+#D90368
+#EADEDA
+
+#FFD400
+*/
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	animation: colorChange 10s infinite;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+#invite-container {
+	color: #2E294E;
+	margin: 0 auto;
+	margin-top: 4%;
+	max-width: 600px;
+	height: 500px;
+	background: #FFD400;
+	border-radius: 5%;
+	box-shadow: 0 0 25px #2E294E;
+}
+.large-text {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 3.5em;
+	text-align: center;
+	padding: 5%;
+	text-shadow: 2px 2px 2px #820263;
+}
+#details-contain {
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.details {
+	width: 35%;
+}
+.details, #divider {
+	font-family: 'Comfortaa', cursive;
+	float: left;
+	padding: 5%;
+}
+#divider {
+	font-size: 2em;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+.left {
+	text-align: right;
+}
+#rsvp {
+	display: block;
+	cursor: pointer;
+	width: 100px;
+	padding: 5px;
+	margin: 0 auto;
+	font-family: 'Comfortaa', cursive;
+	border-radius: 5px;
+}
+#bubbles {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0; left: 0;
+	z-index: -1;
+	transform: translateZ(0);
+}
+#bubbles li {
+	border-radius: 50%;
+	position: absolute;
+	display: block;
+	opacity: 0.5;
+	background: url("../images/glitter.jpg");
+	bottom: -100px;
+	animation: bubble 20s infinite;
+	transition-timing-function: linear;
+}
+#bubbles li:nth-child(1) {
+	width: 40px;
+	height: 40px;
+	left: 5%;
+}
+#bubbles li:nth-child(2) {
+	width: 80px;
+	height: 80px;
+	left: 28%;
+	animation-delay: 2s;
+	animation-duration: 27s;
+}
+#bubbles li:nth-child(3) {
+	width: 9px;
+	height: 9px;
+	left: 62%;
+	animation-delay: 5s;
+	animation-duration: 36s;
+}
+#bubbles li:nth-child(4) {
+	width: 19px;
+	height: 19px;
+	left: 81%;
+	animation-delay: 11s;
+	animation-duration: 24s;
+}
+#bubbles li:nth-child(5) {
+	width: 69px;
+	height: 69px;
+	left: 26%;
+	animation-delay: 7s;
+	animation-duration: 35s;
+}
+#bubbles li:nth-child(6) {
+	width: 74px;
+	height: 74px;
+	left: 85%;
+	animation-delay: 2s;
+	animation-duration: 23s;
+}
+#bubbles li:nth-child(7) {
+	width: 36px;
+	height: 36px;
+	left: 52%;
+	animation-delay: 12s;
+	animation-duration: 31s;
+}
+
+
+@keyframes bubble {
+	0% {transform: translateY(0);}
+	100% {transform: translateY(-1000px);}
+}
+
+@keyframes colorChange {
+	0% {
+		background: #820263;
+	}
+	50% {
+		background: #D90368
+	}
+	100% {
+		background: #820263;
+	}
+}

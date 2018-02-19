@@ -1,3 +1,6 @@
+* {
+	text-decoration: none;
+}
 .img-circle {
 	border-radius: 50%;
 	max-width: 300px;
@@ -6,7 +9,14 @@
 .container-fluid {
 	padding: 5% 2%;
 }
-
+.bg-1, .bg-2, .bg-3 {
+	color: #F8FFE5;
+	width: 100%;
+	height: 100vh;
+	background-attachment: fixed;
+	background-size: cover;
+	display: table;
+}
 .bg-1 {
 	background: #1B9AAA;
 	color: #F8FFE5;
@@ -43,4 +53,7 @@
 	float: left;
 	color: black;
 	float: left;
+}
+.navbar-header ul a li:hover {
+	color: #06D6A0;
 }
