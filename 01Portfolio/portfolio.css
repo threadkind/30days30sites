@@ -1,6 +1,9 @@
 * {
 	text-decoration: none;
 }
+a:hover {
+	text-decoration: none;
+}
 .img-circle {
 	border-radius: 50%;
 	max-width: 300px;
