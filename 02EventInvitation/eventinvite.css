@@ -20,7 +20,7 @@ body {
 	color: #2E294E;
 	margin: 0 auto;
 	margin-top: 4%;
-	max-width: 600px;
+	width: 600px;
 	height: 500px;
 	background: #FFD400;
 	border-radius: 5%;
@@ -145,4 +145,27 @@ body {
 	100% {
 		background: #820263;
 	}
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width : 550px) {
+	div#invite-contain {
+		margin-top: 30px;
+		width: 85%; 
+		height: 350px;
+	}
+	#text-contain {
+		width: 75%;
+		margin: 0 auto;
+	}
+	#details-contain {
+		font-size: 15px;
+		margin-top: 0;
+		width: 95%;
+	}
+	.large-text {
+		font-size: 40px;
+	}
+
+
 }

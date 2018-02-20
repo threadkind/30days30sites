@@ -50,10 +50,10 @@ h1:hover {
 	height: 75px;
 	background-color: hotpink;
 	border-radius: 50%;
-	z-index: 2;
+	z-index: 3;
 }
 .hamburger-line {
-	z-index: 2;
+	z-index: 3;
 	left: 12px;
 	position: absolute;
 	width: 50px;
@@ -87,6 +87,7 @@ h1:hover {
 	transition: width 1s;
 	font-size: 1.5em;
 	transition: font-size 1s;
+	z-index: 2;
 
 }
 
