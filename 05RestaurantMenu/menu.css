@@ -98,3 +98,9 @@ body {
 	background: url("../images/restaurant/dessert.jpeg");
 	background-position: center;
 }
+
+@media only screen and (max-width: 600px) {
+    .food-header {
+	font-size: 2em;
+	}
+}
