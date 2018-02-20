@@ -1,0 +1,153 @@
+/*COLORS:
+#070707
+#4B5358
+#979B8D
+#EFCB68
+#FFFFFF
+
+font-family: 'Permanent Marker', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+#hamburger {
+	position: fixed;
+	top: 50px;
+}
+#product-menu {
+	position: fixed;
+	height: 75px;
+	width: 100%;
+	background-color: #EFCB68;
+}
+#main-product-image img {
+	margin-top: 50px;
+	width: 100%;
+}
+#product-menu img {
+	height: 75px;
+	margin-left: 2%;
+}
+#product-nav {
+	width: 50%;
+	float: right;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin-top: 2%;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+#banner-contain {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 4%;
+	padding: 0;
+}
+div.banner {
+	width: 22%;
+	margin: 0 auto;
+	float: left;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 3%;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+div.banner:nth-child(1) {
+	border: 40px solid #EFCB68;
+	background-color: #979B8D;
+}
+div.banner:nth-child(2) {
+	border: 40px solid #979B8D;
+	background-color: #EFCB68;
+	color: #070707;
+}
+div.banner:nth-child(3) {
+	border: 40px solid #EFCB68;
+	background-color: #979B8D;
+}
+
+#course-contain {
+	display: flex;
+	height: auto;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 4%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.courses {
+	width: 320px;
+	height: 320px;
+	margin: 2%;
+}
+.courses p {
+	padding: 10%;
+	width: 50%;
+	background: #FFFFFF;
+	margin: 0 auto;
+	margin-top: 15%;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1.5em;
+	text-align: center;
+}	
+.courses p button {
+	background: rgba(239, 203, 104, 0.5);
+	padding: 1%;
+	width: 50%;
+	border-radius: 10px;
+}
+.course1 {
+	background: url("../images/products/business.jpeg");
+	background-size: cover;
+}
+.course2 {
+	background: url("../images/products/camera.jpeg");
+	background-size: cover;
+}
+.course3 {
+	background: url("../images/products/ceramics.jpeg");
+	background-size: cover;
+}
+.course4 {
+	background: url("../images/products/cheesecake.jpeg");
+	background-size: cover;
+}
+.course5 {
+	background: url("../images/products/crafting.jpeg");
+	background-size: cover;
+}
+.course6 {
+	background: url("../images/products/flowers.jpeg");
+	background-size: cover;
+}
+.course7 {
+	background: url("../images/products/journaling.jpeg");
+	background-size: cover;
+}
+.course8 {
+	background: url("../images/products/painting.jpeg");
+	background-size: cover;
+}
+.course9 {
+	background: url("../images/products/photography.jpeg");
+	background-size: cover;
+}
+.course10 {
+	background: url("../images/products/pie.jpeg");
+	background-size: cover;
+}
+.course11 {
+	background: url("../images/products/stitching.jpeg");
+	background-size: cover;
+}
+.course12 {
+	background: url("../images/products/washi.jpeg");
+	background-size: cover;
+}
+.course13 {
+	background: url("../images/products/wedding.jpeg");
+	background-size: cover;
+}
