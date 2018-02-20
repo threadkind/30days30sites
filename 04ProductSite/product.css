@@ -95,9 +95,10 @@ div.banner:nth-child(3) {
 }	
 .courses p button {
 	background: rgba(239, 203, 104, 0.5);
-	padding: 1%;
+	padding: 2%;
 	width: 50%;
 	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
 }
 .course1 {
 	background: url("../images/products/business.jpeg");
