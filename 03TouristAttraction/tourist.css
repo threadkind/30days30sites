@@ -1,0 +1,99 @@
+/* Colors
+#507255
+#488B49
+#4AAD52
+#6EB257
+#C5E063 // rgb(197, 224, 99)
+*/
+#main-nav {
+	position: absolute;
+	font-family: 'Mukta Mahee', sans-serif;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #488B49;
+}
+.panels {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+.panel {
+	flex: 1;
+	height: 100vh;
+	text-align: center;
+	color: #35400d;
+	transition: 0.5;
+}
+.panel p {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin: 0 auto;
+	padding: 2%;
+	width: 80%;
+	font-family: 'Mukta Mahee', sans-serif;
+	border: solid 3px #35400d;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 10px;
+	transition: 0.5s;
+	overflow: hidden;
+}
+.panel p:nth-child(1) {
+	margin-top: 75vh;
+}
+.panel:hover {
+	flex: 3;
+	transition: 0.5s;
+}
+.panel1 {
+	background: url("../images/tourist/originals/new/rushmore1.jpg");
+	background-size: cover;	
+}
+.panel2 {
+	background: url("../images/tourist/originals/new/rushmore2.jpg");
+	background-size: cover;	
+}
+.panel3 {
+	background: url("../images/tourist/originals/new/rushmore3.jpg");	
+	background-size: cover;	
+}
+.panel4 {
+	background: url("../images/tourist/originals/new/rushmore4.jpg");	
+	background-size: cover;	
+}
+.panel5 {
+	background: url("../images/tourist/originals/new/rushmore5.jpg");	
+	background-size: cover;	
+}
+span {
+	display: none;
+	font-size: 0.65em;
+	color: #507255;
+	font-weight: normal;
+}
+span img {
+	width: 30%;
+}
+em {
+	font-weight: bold;
+}
+#google-map {
+        position: relative;
+        padding-bottom: 65%; //This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+ #google-map iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+	
