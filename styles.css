@@ -89,3 +89,10 @@ h1:hover {
 	transition: font-size 1s;
 
 }
+
+/* MEDIA QUERIES */
+@media only screen and (max-device-width : 600px) {
+	#hamburger-ul.open {
+		width: 80%;
+	}
+}

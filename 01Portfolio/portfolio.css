@@ -60,3 +60,15 @@ a:hover {
 .navbar-header ul a li:hover {
 	color: #06D6A0;
 }
+
+/* MEDIA QUERIES */
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
+	.navbar-header ul a li {
+		font-size: 8px;
+		margin: 2%;
+	}
+	.navbar-header {
+		width: 100%;
+	}
+
+}
