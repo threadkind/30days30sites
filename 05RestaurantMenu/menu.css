@@ -103,4 +103,7 @@ body {
     .food-header {
 	font-size: 2em;
 	}
+	#restaurant-social {
+	width: 50%;
+	}
 }
