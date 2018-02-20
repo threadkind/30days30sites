@@ -14,7 +14,7 @@
 	font-size: 28px;
 	top: 0;
 	left: 0;
-	width: 100%;
+	width: 100vh;
 	height: 50px;
 	background-color: #488B49;
 }
@@ -96,4 +96,20 @@ em {
         height: 100% !important;
     }
 
-	
+	/* MEDIA QUERIES */
+@media only screen and (max-width : 600px) {
+	#main-nav {
+	font-size: 14px;
+	height: 30px;
+	width: 100vw;
+}
+	.panel {
+		font-size: 0.5em;
+	}
+	span {
+		font-size: .75em;
+	}
+	span img {
+		width: 80%;
+	}
+}
