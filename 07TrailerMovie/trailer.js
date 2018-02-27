@@ -1,6 +1,7 @@
 $(document).ready(function(){
-	$(window).resize(function(){location.reload();});
+
 	var viewportWidth = $(window).width();
+
 	var video = document.querySelector("video");
 	var isPlaying;
 	function playVideo() { 
