@@ -20,7 +20,7 @@ body {
 	color: #2E294E;
 	margin: 0 auto;
 	margin-top: 4%;
-	width: 600px;
+	width: 350px;
 	height: 500px;
 	background: #FFD400;
 	border-radius: 5%;
@@ -34,7 +34,7 @@ body {
 	text-shadow: 2px 2px 2px #820263;
 }
 #details-contain {
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	margin-top: 40px;
 }
