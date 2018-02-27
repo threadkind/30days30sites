@@ -47,12 +47,37 @@ main {
 	right: 5vh;
 	font-size: 4em;
 }
-#test {
+.testimonials {
+	position: absolute;
+	display: inline-block;
+}
+#beach {
 	position: absolute;
 	top: 0;
-	left: 350vh;
-	display: inline-block;
+	left: 100px;
 	width: 300px;
 	height: 300px;
-	background: red;
+	background: url("../images/book/beach.jpeg");
+	background-size: 300px 300px;
+	border-radius: 10px;
+}
+#japan {
+	position: absolute;
+	top: 0;
+	left: 700px;
+	width: 300px;
+	height: 300px;
+	background: url("../images/book/japan.jpeg");
+	background-size: 300px 300px;
+	border-radius: 10px;
+}
+#lake {
+	position: absolute;
+	top: 0;
+	left: 1200px;
+	width: 300px;
+	height: 300px;
+	background: url("../images/book/lake.jpeg");
+	background-size: 300px 300px;
+	border-radius: 10px;
 }
