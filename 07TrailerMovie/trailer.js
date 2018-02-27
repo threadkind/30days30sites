@@ -20,7 +20,7 @@ $(document).ready(function(){
   		$("#synopsisText").css("display", "none");
   		$("#movieContain").css("display", "none");
 
-  		if(viewportWidth <= 500){
+  		if(viewportWidth <= 900){
   			if($(".mh1").css("display") == "block"){
   			$(".mh1").css("display", "none");
   			$(".mh2").css("display", "block");
@@ -33,7 +33,7 @@ $(document).ready(function(){
   		
 
   		document.querySelector('style').textContent +=
-    "@media screen and (min-width:500px) { .mh1, .mh2 {display: none;} }"
+    "@media screen and (min-width:900px) { .mh1, .mh2 {display: none;} }"
 
 
 });
@@ -42,7 +42,7 @@ $("#synopsis" ).click(function() {
   		$("#movieHamburgerUl").toggleClass("closed");
   		$("#movieMenu").removeClass("heightMax");
 
-	if(viewportWidth <= 500){
+	if(viewportWidth <= 900){
   		$(".mh1").css("display", "block");
   		$(".mh2").css("display", "none");
   	}
@@ -57,7 +57,7 @@ $("#synopsis" ).click(function() {
 
   		$("#synopsisText").css("display", "block");
 });
-if (viewportWidth <= 500){
+if (viewportWidth <= 900){
 $("#synopsisText").click(function(){
 	$("#synopsisText").css("display", "none");
 
@@ -66,7 +66,7 @@ $("#synopsisText").click(function(){
 $("#trailer").click(function() {
    		$("#movieHamburgerUl").toggleClass("closed");
   		$("#movieMenu").removeClass("heightMax");
-	if(viewportWidth <= 500){
+	if(viewportWidth <= 900){
   		$(".mh1").css("display", "block");
   		$(".mh2").css("display", "none");
   	}
@@ -94,7 +94,7 @@ $("#closeVideo").click(function(){
  	$("#movieContain").css("display", "none");
  	pauseVideo();
 
- 	if(viewportWidth > 500) {
+ 	if(viewportWidth > 900) {
  		$("#movieHamburgerUl").css("display", "block");
 		$("#movieMenu").css("width", "25%");
   		$("#movieMenu").css("background", "rgba(0,0,0,0.4)");
