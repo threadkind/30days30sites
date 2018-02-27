@@ -24,7 +24,7 @@ h1:hover {
 	margin-bottom: 2%;
 }
 #hamburger-ul {
-	background: hotpink;
+	background: rgba(255,105,180,0.8);
 	position: absolute;
 	font-size: 0em;
 	top: 50px;
@@ -48,7 +48,7 @@ h1:hover {
 	top: 10px;
 	width: 75px;
 	height: 75px;
-	background-color: hotpink;
+	background-color: rgba(255,105,180,0.5);
 	border-radius: 50%;
 	z-index: 3;
 }
