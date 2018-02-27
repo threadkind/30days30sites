@@ -47,6 +47,9 @@ h1:hover {
 .heightMax {
 	height: 100vh;
 }
+.backArrow {
+	display: none;
+}
 #synopsisText {
 	margin-top: 5vh;
 	font-size: 0.5em;
@@ -71,7 +74,30 @@ video {
 
 /* M E D I A   Q U E R I E S */
 @media only screen and (min-width: 500px) {
+
     body {
         background: url(../images/movie/elephant_dream.jpg);
     }
+    .mh1, .mh2 {
+    	display: none;
+    } 
+    #movieMenu {
+    	width: 25%;
+    	margin-top: 10%;
+    	background: rgba(0,0,0,0.4);
+    	margin-left: -2%;
+ 
+    }
+    #movieHamburgerUl {
+    	display: inline-block;
+    	text-align: center;
+    }
+	#synopsisText {
+		float: left;
+	}
+	.backArrow {
+		display: inline;
+		cursor: pointer;
+	}
+
 }
