@@ -2,7 +2,6 @@
 #820263
 #D90368
 #EADEDA
-
 #FFD400
 */
 * {
@@ -16,48 +15,74 @@ body {
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-#invite-container {
+.invite-container {
+	margin: 0 auto;
+	margin-top: 25vh;
+	width: 25%;
+	height: 28vh;
+	transition: all 1s;
+}
+.invite-open {
+	width: 80%;
+	height: 60vh;
+	transition: all 1s;
+}
+#envelope {
 	color: #2E294E;
 	margin: 0 auto;
 	margin-top: 4%;
-	width: 350px;
-	height: 500px;
-	background: #FFD400;
-	border-radius: 5%;
+	width: 100%;
+	height: 100%;
+	background: #EADEDA;
 	box-shadow: 0 0 25px #2E294E;
 }
-.large-text {
+
+#spacer {
+	height: 1%;
+}
+.click {
 	font-family: 'Permanent Marker', cursive;
-	font-size: 3.5em;
-	text-align: center;
-	padding: 5%;
-	text-shadow: 2px 2px 2px #820263;
-}
-#details-contain {
-	width: 90%;
+	background: url("../images/invite/heart.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 50%;
+	width: 25%;
 	margin: 0 auto;
-	margin-top: 40px;
+	margin-top: 10%;
+	padding-top: 4%;
+	text-align: center;
+	cursor: pointer;
+	transition: all 1s;
 }
-.details {
-	width: 39%;
+.clickHide {
+	display: none;
+	transition: all 1s;
 }
-.details {
-	font-family: 'Comfortaa', cursive;
-	float: left;
-	padding: 5%;
+.invite-details {
+	display: none;
+	font-family: Comfortaa;
+	width: 80%;
+	margin: 5% auto 0;
+	text-align: center;
+	line-height: 2em;
+	transition: all 1s;
 }
-.left {
-	text-align: right;
-	border-right: 2px solid #820263;
+.invite-details span {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 4em;
+	color: #FFD400;
+	text-shadow: 0 0 10px #820263;
+}
+.openInvite {
+	display: block;
+	transition: all 1s;
 }
 #rsvp {
-	display: block;
-	cursor: pointer;
-	width: 100px;
-	padding: 5px;
-	margin: 0 auto;
-	font-family: 'Comfortaa', cursive;
-	border-radius: 5px;
+	background: #820263;
+	color: #FFD400;
+	padding: 2%;
+	border-radius: 10px;
+	margin: 2%;
 }
 #bubbles {
 	width: 100%;
@@ -150,18 +175,5 @@ body {
 		width: 85%; 
 		height: 350px;
 	}
-	#text-contain {
-		width: 75%;
-		margin: 0 auto;
-	}
-	#details-contain {
-		font-size: 15px;
-		margin-top: 0;
-		width: 95%;
-	}
-	.large-text {
-		font-size: 40px;
-	}
-
-
+	
 }
