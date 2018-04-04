@@ -8,13 +8,13 @@
   <meta name="author" content="Amy">
   <meta name="description" content="#30days30sites project page">
   <meta name="keywords" content="30days30sites">
-  <link href="https://fonts.googleapis.com/css?family=Unica+One|Comfortaa|Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Unica+One|Comfortaa|Permanent+Marker|Amatic+SC" rel="stylesheet">
   <link rel="stylesheet" href="../styles.css" type="text/css">
   <link rel="stylesheet" href="eventinvite.css" type="text/css">
   </head>
   <body>
 
-    <nav>
+<!--     <nav>
       <div id="hamburger">
         <div class="hamburger-line" id="line1"></div>
         <div class="hamburger-line" id="line2"></div>
@@ -25,6 +25,13 @@
         <a href="../01Portfolio/"><li>&#x2190; Previous Site</li></a>
         <a href="../03TouristAttraction/"><li>Next Site &#x2192;</li></a>
         <li>#30days30sites</li>
+      </ul>
+    </nav> -->
+    <nav>
+      <ul id="nav-ul" class="">
+        <a href="../01Portfolio/"><li>&#x2190; Previous</li></a>
+        <a href="../index.html"><li> #30days30sites</li></a>
+        <a href="../03TouristAttraction/"><li>Next &#x2192;</li></a>
       </ul>
     </nav>
     <main>
@@ -39,19 +46,27 @@
         <li></li>
       </ul>
       <!-- EVENT INVITATION -->
-      <div class="invite-container">
-        <div id="envelope">
-          <div id="spacer"></div>
-          <div class="click">Click<br>Me!</div>
-          <div class="invite-details">
-            <span>You Are Invited!</span><br>
-            Please join us for Chloe's Birthday Celebration<br>
-            April 28th 2018 || 4pm to 7pm<br>
-            8221 Sunset Blvd, Los Angeles, CA 90046<br>
-            <button id="rsvp">RSVP</button>
-          </div>
-        </div>
-      </div>
+<div class="invite-contain">
+  <div class="envelope">
+    <div id="click">Click<br>To Open!<br>💗</div>
+    <div class="event-details">
+      <span class="youre-invited">You Are Invited!</span><br>
+      Please join us for Chloe's Birthday Celebration<br>
+      April 28th 2018 || 4pm to 7pm<br>
+      8221 Sunset Blvd, Los Angeles, CA 90046
+    </div> <!-- end of event details -->
+    <div class="form-contain"
+      <form id="form-rsvp">
+        <div class="form-inputs">
+          What is your name? <input type="text" name="name"></p>
+          Are you going to be able to come?  <input type="radio"        name="attending" value="Yes" checked> Yes&nbsp;<input type="radio" name="attending" value="no"> No<br>
+        If yes, how many people will you be bringing? <input type="number" name="number">
+        </div><!-- end of form inputs -->
+      </form>
+    </div><!-- end of form-contain -->
+    <button id="rsvp">RSVP</button>
+  </div><!-- end of envelope -->
+</div><!-- end of event contain -->
 
       <!-- EVENT INVITATION -->
     </main>
