@@ -7,8 +7,9 @@
 }
 h1 {
 	text-align: center;
-	font-family: 'Unica One', cursive;
+	font-family: 'Amatic SC', cursive;
 	color: black;
+	padding: 10px;
 }
 h1:hover {
 	color: grey;
@@ -35,7 +36,7 @@ h1:hover {
 #hamburger-ul li {
 	text-align: center;
 	color: white;
-	font-family: 'Unica One', cursive;
+	font-family: 'Amatic SC', cursive;
 	padding: 4%;
 
 }
@@ -90,24 +91,30 @@ h1:hover {
 	z-index: 2;
 
 }
-nav {
+#main-nav-ul {
 	position: absolute;
-	background: rgba(255,255,255,0.5);
+	background: rgba(255,255,255,0.8);
 	top: 0;
 	width: 100%;
-}
-#nav-ul {
+	z-index: 10;
+	height: 20px;
+	font-size: 15px;
+	transition: all 0.5s;
 	display: grid;
 	grid-template-columns: repeat(3, auto);
 }
-#nav-ul a {
+#main-nav-ul:hover {
+	height: 45px;
+	font-size: 30px;
+	transition: all 0.5s;
+}
+#main-nav-ul a {
 	text-align: center;
 	color: black;
 }
-#nav-ul a li {
-	font-family: 'Amatic SC', cursive;
-	font-size: 30px;
+#main-nav-ul a li {
 	font-weight: bold;
+	font-family: 'Amatic SC', cursive;
 }
 /* MEDIA QUERIES */
 @media only screen and (max-device-width : 600px) {
