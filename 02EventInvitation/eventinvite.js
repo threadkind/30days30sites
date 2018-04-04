@@ -6,7 +6,7 @@ $(document).ready(function(){
     width: '80vw',
     transition: 'all 1s'
   });
-    $('#click').text('');
+    $('#click').css('display', 'none');
     $('.event-details').css({
       visibility: 'visible',
       opacity: 1,

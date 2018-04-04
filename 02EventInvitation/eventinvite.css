@@ -22,9 +22,11 @@ body {
   background: #820263;
 }
 .invite-contain {
+  width: 100%;
+  margin: 0;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  grid-template-rows: 25vh auto;
+  grid-template-rows: 10vh auto;
 }
 .envelope {
   grid-column: 2;
@@ -175,5 +177,7 @@ input {
 
 /* MEDIA QUERIES */
 @media only screen and (max-width : 550px) {
-	
+	.youre-invited {
+		font-size: 2em;
+	}
 }
