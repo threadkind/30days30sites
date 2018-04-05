@@ -52,6 +52,7 @@ body {
 	padding: 1%;
 	position: relative;
 	margin: 0.75%;
+	cursor: pointer;
 }
 .dish	 {
 	color: rgb(238,229,229);
