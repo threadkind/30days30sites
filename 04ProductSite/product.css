@@ -8,10 +8,20 @@
 font-family: 'Permanent Marker', cursive;
 font-family: 'Montserrat', sans-serif;
 */
-#hamburger {
+#hamburger-ul {
+	background: #EFCB68;
 	position: fixed;
-	top: 50px;
 }
+#hamburger {
+	background: #EFCB68;
+	position: fixed;
+	top: 25px;
+}
+#hamburger-ul li  {
+	font-family: 'Montserrat', sans-serif;
+	cursor: pointer;
+}
+
 #product-menu {
 	position: fixed;
 	height: 75px;
@@ -26,32 +36,23 @@ font-family: 'Montserrat', sans-serif;
 	height: 75px;
 	margin-left: 2%;
 }
-#product-nav {
-	width: 50%;
-	float: right;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: bold;
-	font-size: 1.5em;
-	margin-top: 2%;
-	color: #FFFFFF;
-	cursor: pointer;
-}
+
 #banner-contain {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	width: 90%;
-	height: 200px;
-	margin: 0 auto;
-	margin-top: 4%;
+	height: auto;
+	margin: 4% auto 0;
 	padding: 0;
 }
 div.banner {
 	width: 22%;
-	margin: 0 auto;
+	margin: 0 auto 1%;
 	float: left;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
-	padding-top: 3%;
+	padding: 2%;
 	color: #FFFFFF;
 	font-weight: bold;
 }
@@ -151,4 +152,10 @@ div.banner:nth-child(3) {
 .course13 {
 	background: url("../images/products/wedding.jpeg");
 	background-size: cover;
+}
+
+@media only screen and (max-width : 700px) {
+	div.banner {
+	  width: 100%;
+	}
 }
