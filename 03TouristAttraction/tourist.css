@@ -5,6 +5,15 @@
 #6EB257
 #C5E063 // rgb(197, 224, 99)
 */
+#nav-spacer {
+	position: absolute;
+	background-color: #488B49;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 20px;
+	z-index: 5;
+}
 #main-nav {
 	position: absolute;
 	font-family: 'Mukta Mahee', sans-serif;
@@ -12,7 +21,7 @@
 	color: white;
 	text-align: center;
 	font-size: 28px;
-	top: 0;
+	top: 20px;
 	left: 0;
 	width: 100%;
 	height: 50px;
@@ -31,7 +40,7 @@
 	transition: 0.5;
 }
 .panel p {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	font-weight: bold;
 	margin: 0 auto;
 	padding: 2%;
@@ -97,14 +106,33 @@ em {
     }
 
 	/* MEDIA QUERIES */
-@media only screen and (max-width : 600px) {
+@media only screen and (max-width : 800px) {
 	#main-nav {
-	font-size: 14px;
-	height: 30px;
-	width: 100vw;
+		font-size: 14px;
+		height: 30px;
+		width: 100vw;
 }
+	.panel p:nth-child(1) {
+	margin-top: 65vh;
+}
+	.panel1 {
+		display: block;
+		position: absolute;
+		width: 100%;
+		top: 0;
+		left: 0;
+		z-index: -2;
+	}
 	.panel {
 		font-size: 0.5em;
+	}
+	.panel.panel1 p {
+		margin-top: 80vh;
+	}
+
+	.panel2, .panel3, .panel4, .panel5 {
+		background: none;
+		height: 0;
 	}
 	span {
 		font-size: .75em;
