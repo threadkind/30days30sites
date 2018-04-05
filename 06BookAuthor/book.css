@@ -62,7 +62,7 @@ main {
 }
 #book-content {
 	padding: 5vh 8rem;
-	width: calc(300vw - 16rem);
+	width: 280vw;
 	height: 90vh;
 	display: grid;
 	grid-gap: 2%;
@@ -111,19 +111,19 @@ main {
 	background-position: center;
 	background-repeat: no-repeat;
 }
-#road {
+.road {
 	background: url("../images/book/road.png");
 }
-#packing {
+.packing {
 	background: url("../images/book/packing.png");
 }
-#lakemountain {
+.lakemountain {
 	background: url("../images/book/lake mountains.png");
 }
-#mountain {
+.mountain {
 	background: url("../images/book/mountains.png");
 }
-#lake {
+.lake {
 	background: url("../images/book/lake.png");
 }
 .testimonials {
@@ -135,12 +135,16 @@ main {
 	background: rgba(239, 247, 255, 0.3);
     font-family: 'Kalam', cursive;
 }
-.test1 {
-	vertical-align: text-bottom;
-}
 
-/*@media only screen and (max-width: 700px) {
-    main {
-        width: ;
+
+@media only screen and (max-width: 700px) {
+    #page-arrow-left, #page-arrow-right {
+        display: none;
     }
-}*/
+    main {
+    	width: 600vw;
+    }
+    #book-content {
+    	width: 550vw;
+    }
+}
