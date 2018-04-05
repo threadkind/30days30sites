@@ -1,36 +1,28 @@
 $(document).ready(function(){
-  //click on envelope to open invitation
-  $(".envelope").click(function(){
-    $('.envelope').css({
-    height: 'auto',
-    width: '80vw',
-    transition: 'all 1s'
-  });
-    $('#click').css('display', 'none');
-    $('.event-details').css({
-      visibility: 'visible',
-      opacity: 1,
-      transition: 'all 1s'
+  $('#envelope').click(function(){
+    $('#content').css({
+      gridTemplateColumns : '1fr 8fr 1fr',
+      height : 'auto'
+    });//content-css end
+    $("#click").css('display', 'none');
+    $('#event-info').css('display', 'grid');
+    $('#envelope').css({
+      cursor : 'auto',
+      padding : '2%'
     });
-    $('#rsvp').css('display', 'block');
-    $('.form-contain').css('display', 'block');
-  });//end of envelope click
+  });//envelope click end  
   
-  //click on rsvp button to show form
   $('#rsvp').click(function(){
-    if ($('#rsvp').hasClass('rsvp-submit')){
-      alert('Thanks! Response Submitted')
-    }
-    else {
-    $('.form-inputs').css('display', 'block');
-    $('#rsvp').addClass('rsvp-submit');
-    }
-  });
-  
-  //click on rsvp submit button to submit response
-  $('.rsvp-submit').click(function(){
-      console.log("working");
-    // alert($('input[name=attending]:checked', '#form-rsvp').val());
-    
+    $('form, label, input').css({
+      visibility: 'visible',
+      fontSize : '1em',
+      height : 'auto'
+    });//form label input css
+    $('#rsvp').css('display', 'none');
+    $('#form-contain').css('visibility', 'visible');
+    $('#event-address').css('margin-bottom', '20px');
+  });//end of rsvp click
+  $('#rsvp-submit').click(function(){
+    alert('Thanks! Your response has been submitted');
   });
 });

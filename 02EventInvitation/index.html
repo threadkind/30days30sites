@@ -36,7 +36,7 @@
     </nav>
     <main>
 
-      <ul id="bubbles">
+<!--       <ul id="bubbles">
         <li></li>
         <li></li>
         <li></li>
@@ -44,30 +44,35 @@
         <li></li>
         <li></li>
         <li></li>
-      </ul>
+      </ul> -->
       <!-- EVENT INVITATION -->
-<div class="invite-contain">
-  <div class="envelope">
-    <div id="click">Click<br>To Open!<br>💗</div>
-    <div class="event-details">
-      <span class="youre-invited">You Are Invited!</span><br>
-      Please join us for Chloe's Birthday Celebration<br>
-      April 28th 2018 || 4pm to 7pm<br>
-      8221 Sunset Blvd, Los Angeles, CA 90046
-    </div> <!-- end of event details -->
-    <div class="form-contain"
-      <form id="form-rsvp">
-        <div class="form-inputs">
-          What is your name? <input type="text" name="name"></p>
-          Are you going to be able to come?  <input type="radio"        name="attending" value="Yes" checked> Yes&nbsp;<input type="radio" name="attending" value="no"> No<br>
-        If yes, how many people will you be bringing? <input type="number" name="number">
-        </div><!-- end of form inputs -->
-      </form>
-    </div><!-- end of form-contain -->
-    <button id="rsvp">RSVP</button>
-  </div><!-- end of envelope -->
-</div><!-- end of event contain -->
-
+<div id="content">
+  <div id="envelope">
+    <div id="click">Click To Open<br>💗</div>
+    <div id="event-info">
+      <p id="event-title">You Are Invited!</p>
+      <p class="event-ps">Please join us for Chloe's Birthday Celebration</p>
+      <p class="event-ps">April 28th 2018 || 4pm to 7pm</p>
+      <p id="event-address" class="event-ps">8221 Sunset Blvd, Los Angeles, CA 90046</p>
+      <p id="rsvp">Click here to RSVP</p>
+<!-- R S V P     F O R M -->
+      <div id="form-contain">
+        <form>
+<!-- Name -->
+          <label for="name">Name: </label>
+          <input type="text" id="name" name="name"><br>
+<!-- Attending? -->
+          <label for="attending">Are You Coming to the Party?</label>
+          <input type="radio"        name="attending" value="Yes" checked> Yes&nbsp;<input type="radio" name="attending" value="no"> No<br>
+<!-- How Many People? -->
+         <label for="number">If yes, how many people will you be bringing? </label>
+         <input type="number" name="number"><br>
+         <input type="submit" id="rsvp-submit" value="Submit">
+        </form>
+      </div>
+    </div> <!-- event info end -->
+  </div>
+</div>
       <!-- EVENT INVITATION -->
     </main>
   <script
