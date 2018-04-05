@@ -18,7 +18,7 @@ main {
 	position: relative;
 	height: 100vh;
 	background: rgba(85, 140, 140, 0.3);
-	width: 620vh;
+	width: 300vw;
 	overflow-x: scroll;
 }
 #main-nav-ul {
@@ -62,7 +62,7 @@ main {
 }
 #book-content {
 	padding: 5vh 8rem;
-	width: calc(620vh - 16rem);
+	width: calc(300vw - 16rem);
 	height: 90vh;
 	display: grid;
 	grid-gap: 2%;
@@ -138,3 +138,9 @@ main {
 .test1 {
 	vertical-align: text-bottom;
 }
+
+/*@media only screen and (max-width: 700px) {
+    main {
+        width: ;
+    }
+}*/
